@@ -18,7 +18,7 @@ const AboutMe = () => {
 
   return (
     <div className='border border-black m-2 md:m-6 shadow-lg shadow-gray-600  py-10 md:py-28'>
-    <Headings portfolioheading = "About Me" /> 
+    <Headings portfolioheading = "What I Do" /> 
     <div className='flex flex-row-reverse flex-wrap md:flex-row lg:flex-row justify-center items-center mx-auto  lg:mx-5 lg:py-5'>
         
         <div className=''>
