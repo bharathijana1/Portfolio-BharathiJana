@@ -27,20 +27,27 @@ const AboutMe = () => {
 
         <div class="max-w-3xl mx-auto p-2" data-aos="fade-down">
         
-        <p class="text-lg text-gray-800">
+        <p class="text-lg text-black">
             Hi! I'm Bharathi, a passionate Front-End Developer with a strong focus on building interactive and responsive websites. 
             With a deep understanding of HTML5, CSS3, and JavaScript, I specialize in creating seamless user experiences and engaging web interfaces.
         </p>
-        <p class="text-lg text-gray-800 my-4">
+        <p class="text-lg text-black my-4">
             I have hands-on experience working with <strong>React</strong>, a powerful JavaScript library, to build dynamic and high-performing web applications. 
             I also use <strong>Material UI</strong> for designing clean and modern user interfaces, as well as <strong>Tailwind CSS</strong> and <strong>Bootstrap </strong> 
             to ensure responsiveness and flexibility in all my projects.
         </p>
-        {/* <p class="text-lg text-gray-800 mt-4">
+        {/* <p class="text-lg text-black mt-4">
             Whether it's coding from scratch or building on existing frameworks, I thrive in creating beautiful, functional, and user-friendly websites. 
             My goal is to continuously learn and leverage the best tools and technologies to provide optimal solutions for users and clients alike.
         </p> */}
-        <div className='flex justify-center gap-4'>
+        <div className='max-w-sm mx-auto bg-white shadow-black shadow-lg border rounded-lg overflow-hidden'>
+        <div className='text-center p-5'>
+            <img src={FrontendImg} alt="Front end" className="w-64 h-auto mx-auto" />
+            <h1 className="text-2xl font-semibold mt-4">Web Development</h1>
+            <h1 className="text-lg mt-2 text-black">Specializing in creating captivating and user-friendly websites that blend aesthetics with functionality</h1>
+        </div>
+        </div>
+        <div className='flex justify-center gap-4 pt-6'>
         <a href='https://github.com/bharathijana1?tab=repositories' target='_blank'>
             <img src={GithubImg} alt="github" width="70px" />
         </a>
