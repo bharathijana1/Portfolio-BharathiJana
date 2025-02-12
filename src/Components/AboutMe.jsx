@@ -33,7 +33,7 @@ const AboutMe = () => {
         </p>
         <p class="text-lg text-gray-800 my-4">
             I have hands-on experience working with <strong>React</strong>, a powerful JavaScript library, to build dynamic and high-performing web applications. 
-            I also use <strong>Material UI</strong> for designing clean and modern user interfaces, as well as <strong>Tailwind CSS</strong> and <strong>Bootstrap</strong> 
+            I also use <strong>Material UI</strong> for designing clean and modern user interfaces, as well as <strong>Tailwind CSS</strong> and <strong>Bootstrap </strong> 
             to ensure responsiveness and flexibility in all my projects.
         </p>
         {/* <p class="text-lg text-gray-800 mt-4">
