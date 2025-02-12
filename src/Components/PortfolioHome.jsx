@@ -34,6 +34,15 @@ const PortfolioHome = () => {
 
           <a href="./Bharathi_ResumeC.pdf" download target='_blank'>Download CV</a>
        </button>
+       <Link to='projects'>
+       <button className='border bg-fuchsia-900 p-2 px-8 py-3 m-2 text-lg font-medium text-white' 
+            style={{
+            background: 'rgb(52,124,152)',
+            background: 'radial-gradient(circle, rgba(127,51,171,1) 0%, rgba(80,23,112,1) 69%, rgba(29,0,45,1) 100%)',
+          }}>
+            <h1 className='uppercase'>Projects</h1> 
+       </button>
+       </Link>
             </div>
             
             </div>
